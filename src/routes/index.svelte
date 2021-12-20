@@ -6,7 +6,7 @@
 
     let selected
 
-    const sisense = new SisenseContext('https://customerembed.sisensepoc.com')
+    const sisense = new SisenseContext(<sisense url>)
 
 
     function buildJaql(items: string[]) {
